@@ -3,7 +3,7 @@ def dire_bonjour(nom, langue="fr"):
     salutations = {
         "fr": "Bonjour",
         "en": "Hello",
-        "es": "Hola"
+        "es": "ola"
     }
 
     # Vérifier si la langue est supportée
