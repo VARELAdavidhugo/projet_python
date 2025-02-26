@@ -1,5 +1,12 @@
-import unittest
+import sys
+import os
+
+# Ajouter le dossier racine du projet dans sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Maintenant, on peut importer utils
 from utils import dire_bonjour
+
 
 class TestUtils(unittest.TestCase):
     def test_dire_bonjour_fr(self):
